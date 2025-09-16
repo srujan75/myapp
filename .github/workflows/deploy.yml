@@ -18,7 +18,7 @@ jobs:
       - name: Build Docker image
         run: docker build -t ava-dog-site .
 
-      # (Optional: Push to DockerHub or GHCR)
+      # Optional: Push to DockerHub or GHCR
       # - name: Log in to DockerHub
       #   run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
       # - name: Push Docker image

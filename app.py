@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    photos = ["ava1.jpg", "ava2.jpg"]  
-    videos = ["ava-play.mp4"]  
+    photos = ["ava1.jpg", "ava2.jpg", "ava3.jpg"]
+    videos = ["ava-play.mp4"]
     return render_template("index.html", photos=photos, videos=videos)
 
 if __name__ == "__main__":
